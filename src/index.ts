@@ -17,7 +17,7 @@ const app = () => {
             winMessage: ''
         }
 
-        console.log(chalk.blue('Checking victory conditions'))
+        console.log(chalk.green('Checking victory conditions'))
         
         for (let loop = 0; loop < numbersToBeCalled.length; loop++) {
             calledNumbers.push(numbersToBeCalled[loop])
