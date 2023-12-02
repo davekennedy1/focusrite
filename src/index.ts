@@ -5,7 +5,7 @@ import chalk from 'chalk';
 
 const app = () => {
     try {
-        console.log(chalk.magenta('Welcome to Bingo Challenge'))
+        console.log(chalk.bgCyan('Welcome to Bingo Challenge'))
         console.log('Parsing file data...')
         const result = (parseFile(process.argv[2]))
 

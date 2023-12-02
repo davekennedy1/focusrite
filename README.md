@@ -1,6 +1,9 @@
 # Focusrite Bingo Game
 Bingo game tech test for Focusrite written in node Typescript
 
+Welcome to the Bingo Challenge. As the captain of a submarine stopped by a giant squid, you'll need to win a bingo game to continue your
+journey.
+
 ## Data set file formatting
 It is understood the data set will adhere to the following rules:
 1. The drawn numbers must appear first in the file and be separated from the cards by a line break
@@ -29,7 +32,7 @@ simply replace 'filename' with the desired filename eg
 npm start bingoGame1.txt
 ```
 
-For ease of use two data sets are already provided in the root folder called `bingoGame1.txt` and `bingoGame2.txt`
+For ease of use three data sets are already provided in the root folder called `bingoGame1.txt`, `bingoGame2.txt` and a losing data set in `bingoGame3.txt`
 
 ## Testing 
 The app uses jest testing library
